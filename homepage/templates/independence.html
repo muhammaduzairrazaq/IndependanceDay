@@ -1,11 +1,15 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'style.css' %}" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Is it independence day?</title>
-</head>
-<body>
-    <h1>I dont know</h1>
-</body>
+  </head>
+  <body>
+    <h1>is it independence day?</h1>
+    <h2>{{ display }}</h2>
+    <p>Independence day is celebrated on 14th of August</p>
+  </body>
 </html>
