@@ -3,9 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: sans-serif;
-    background-image: url(bkgg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: white;
     color: white;
     height: 90vh;
 }
